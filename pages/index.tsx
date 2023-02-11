@@ -3,6 +3,7 @@ import data from "../_data/data.json";
 import ProjectCard from '../components/project-card'
 import Layout from '../components/layout'
 import SEO from "../components/seo";
+import Link from "next/link";
 
 interface Portfolio {
   skills: string[];
@@ -37,9 +38,11 @@ const Index = ({ skills, experience, certifications, projects, education, contac
                     Proven success in delivering projects on time and within budget, with a focus on usability and user experience.<br></br>
                     Skilled in working independently and as part of a team, and able to communicate effectively with both technical and non-technical stakeholders.<br></br>
                   </h3>
-                  <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-                    Hire Me
-                  </button>
+                  <Link href="/contact">
+                    <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+                      Hire Me
+                    </button>
+                  </Link>
                 </div>
               </div>
 
