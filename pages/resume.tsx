@@ -97,9 +97,9 @@ const Resume = ({ education, experience, contact }: Props) => {
 
                     <h2 className="text-lg font-medium text-gray-800 mt-4">Contact</h2>
                     <ul>
-                        <li className="text-gray-600">Email: {process.env.CONTACT_EMAIL}</li>
-                        <li className="text-gray-600">Phone: {process.env.CONTACT_PHONE}</li>
-                        <li className="text-gray-600">Location: {process.env.CONTACT_LOCATION}</li>
+                        <li className="text-gray-600">Email: {data.contact.email}</li>
+                        <li className="text-gray-600">Phone: {data.contact.phone}</li>
+                        <li className="text-gray-600">Location: {data.contact.location}</li>
                     </ul>
                 </div>
             </Layout>
@@ -112,7 +112,11 @@ export const getStaticProps = async () => {
         props: {
             education: data.education,
             experience: data.experience,
-            contact: data.contact
+            contact: {
+                email: process.env.CONTACT_EMAIL,
+                phone: process.env.CONTACT_PHONE,
+                location: process.env.CONTACT_LOCATION,
+            }
         },
     }
 }
