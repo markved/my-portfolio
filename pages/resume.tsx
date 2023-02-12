@@ -27,9 +27,9 @@ const Resume = ({ education, experience, contact }: Props) => {
                 <div className="bg-white p-4">
 
                     <div className="float-right">
-                        <Link href="https://drive.google.com/file/d/1bqZVK6xzKBpBwSVR8Gq4Uze4LbiYXQbJ/view?usp=sharing">
+                        <a target="_blank" href="https://drive.google.com/file/d/1bqZVK6xzKBpBwSVR8Gq4Uze4LbiYXQbJ/view?usp=sharing">
                             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                Download my resume</button></Link>
+                                Download my resume</button></a>
                     </div>
                     <h2 className="text-lg font-medium text-gray-800">Education</h2>
                     {education ? (
