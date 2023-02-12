@@ -53,7 +53,7 @@ const Index = ({ projects }: Portfolio) => {
           </div>
 
           <div className="container mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="bg-white rounded-lg shadow-md m-4 p-4">
                 <img src="/assets/home/icons8-front-end-64.png" alt="Front End" className="w-20 h-20 -mt-10 mx-auto" />
                 <div className="p-4">
@@ -77,6 +77,19 @@ const Index = ({ projects }: Portfolio) => {
                     <li>Python</li>
                     <li>RUST</li>
                     <li>C++</li>
+                    <li>SQL/PostgreSQL/NoSQL</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-md m-4 p-4">
+                <img src="/assets/home/icon-blockchain.png" alt="Blockchain" className="w-28 h-28 -mt-14 mx-auto" />
+                <div className="p-4">
+                  <h3 className="text-lg font-medium text-center">Blockchain</h3>
+                  <ul className="list-square">
+                    <li>Ethereum/Solana</li>
+                    <li>Solidity/OZ</li>
+                    <li>MetaMask/Phantom</li>
+                    <li>Infura</li>
                   </ul>
                 </div>
               </div>
@@ -88,7 +101,7 @@ const Index = ({ projects }: Portfolio) => {
                     <li>Docker</li>
                     <li>Azure</li>
                     <li>AWS</li>
-                    <li>Ethereum/Solana</li>
+                    <li>ReST/GraphQL</li>
                   </ul>
                 </div>
               </div>
