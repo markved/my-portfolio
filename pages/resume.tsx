@@ -97,9 +97,9 @@ const Resume = ({ education, experience, contact }: Props) => {
 
                     <h2 className="text-lg font-medium text-gray-800 mt-4">Contact</h2>
                     <ul>
-                        <li className="text-gray-600">Email: {data.contact.email}</li>
-                        <li className="text-gray-600">Phone: {data.contact.phone}</li>
-                        <li className="text-gray-600">Location: {data.contact.location}</li>
+                        <li className="text-gray-600">Email: {contact.email}</li>
+                        <li className="text-gray-600">Phone: {contact.phone}</li>
+                        <li className="text-gray-600">Location: {contact.location}</li>
                     </ul>
                 </div>
             </Layout>
