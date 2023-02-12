@@ -1,13 +1,84 @@
 {
   "skills": [
-    "Front End: React, NextJS, Angular, TypeScript, JavaScript",
-    "Back End: C#, C++, .NET, NestJS, Python, PowerShell",
-    "UI: Tailwind CSS, Ant Design, Material UI, Bootstrap",
-    "Blockchain: Solidity, OZ, Rust, MetaMask/Phantom, Ethereum/Solana",
-    "Data: SQL, XML, JSON, Azure function, API, GraphQL, ReST, JSONRPC",
-    "Data Analytics: Power BI, Tableau, Spotfire, Crystal Reports",
-    "IDE/Environments: Visual Studio Code, Visual Studio, NodeJS",
-    "CI/CD: Azure DevOps, AWS, JIRA, Github"
+    {
+      "area": "Front End",
+      "tech": [
+        "React",
+        "NextJS",
+        "Angular",
+        "TypeScript",
+        "JavaScript"
+      ]
+    },
+    {
+      "area": "Back End",
+      "tech": [
+        "C#",
+        "C++",
+        ".NET",
+        "NestJS",
+        "Python",
+        "PowerShell"
+      ]
+    },
+    {
+      "area": "UI",
+      "tech": [
+        "Tailwind CSS",
+        "Ant Design",
+        "Material UI",
+        "Bootstrap"
+      ]
+    },
+    {
+      "area": "Blockchain",
+      "tech": [
+        "Solidity",
+        "OZ",
+        "Rust",
+        "MetaMask/Phantom",
+        "Ethereum/Solana"
+      ]
+    },
+    {
+      "area": "Data",
+      "tech": [
+        "SQL",
+        "XML",
+        "JSON",
+        "Azure function",
+        "API",
+        "GraphQL",
+        "ReST",
+        "JSONRPC"
+      ]
+    },
+    {
+      "area": "Data Analytics",
+      "tech": [
+        "Power BI",
+        "Tableau",
+        "Spotfire",
+        "Crystal Reports"
+      ]
+    },
+    {
+      "area": "IDE/Environments",
+      "tech": [
+        "Visual Studio Code",
+        "Visual Studio",
+        "NodeJS"
+      ]
+    },
+    {
+      "area": "CI/CD",
+      "tech": [
+        "Azure DevOps",
+        "AWS",
+        "JIRA",
+        "Github"
+      ]
+    }
   ],
   "certifications": [
     "Microsoft Certified Professional (MCP) in SQL (70-229)",
@@ -36,6 +107,142 @@
       "title": "KPMG Global Site",
       "description": "KPMG Global Site is a website built using React and Node.js for KPMG to showcase their services.",
       "link": "https://www.kpmg.us/"
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "ConsenSys",
+      "position": "Senior Full Stack Engineer",
+      "startDate": "Oct 2021",
+      "endDate": "Present",
+      "summary": "ConsenSys is a private blockchain software technology company.",
+      "projects": [
+        {
+          "title": "Project TURN",
+          "highlights": [
+            "Back-end development in NestJS, PostgreSQL, Prisma, GraphQL and JWT",
+            "Front-end development in React, NextJS, Ant Design and TailwindCSS",
+            "Integration with Smart contract methods using ethers.js, Infura, MetaMask and IPFS",
+            "Integration with CodeFi KYT APIs, Logging with Grafana, Prometheus, GA",
+            "CI/CD with GitHub actions, docker and AWS"
+          ]
+        },
+        {
+          "title": "Education DAO",
+          "highlights": [
+            "Back-end development of ReST API endpoints using NestJS, PostgreSQL",
+            "Front-end development in Angular and Material UI",
+            "Development of smart contracts",
+            "MetaMask wallet integration and Redis session management",
+            "ECS and S3 bucket deployment on AWS"
+          ]
+        },
+        {
+          "title":"Project NEOM",
+          "highlights": [
+            "Reverse engineering of code-base and front-end development",
+            "Deliver API endpoints and documentation for third party integration"
+          ]
+        },
+        {
+          "title":"VISA CBDC",
+          "highlights": [
+            "Technical consultancy on utilizing CodeFi assets APIs",
+            "ReST APi development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Merck & Co., Inc.",
+      "position": "Senior Full Stack Engineer",
+      "startDate": "June 2013",
+      "endDate": "Oct 2021",
+      "summary": "ConsenSys is a private blockchain software technology company.",
+      "projects": [
+        {
+          "title": "Design",
+          "highlights": [
+            "System Analysis and Application Designing Sessions with project managers, business analysts, and team members to analyze business requirements and outline the proposed IT solution",
+            "Low-level design with the technical team and finalizing an optimal approach",
+            "Assigning tasks to individual developers and following through with review and feedback"
+          ]
+        },
+        {
+          "title": "Blockchain (Web 3.0)",
+          "highlights": [
+            "Solidity contract on Ethereum Enterprise Blockchain in Azure",
+            "Develop various Blockchain-related Applications utilizing Rust/C++/Solidity languages"
+          ]
+        },
+        {
+          "title": "Web 2.0 Development",
+          "highlights": [
+            "Develop React, Angular and Svelte based Web 2.0 applications",
+            "Create APIs utilizing Azure functions, Apigee and Postman",
+            "Create SharePoint Framework Web Parts and Extensions that use React/Node.js/TypeScript/Azure SQL/Azure Functions",
+            "C# and .NET development of back-end services",
+            "Setup Azure infrastructure and resources like Managed Identities, Virtual Machines/Docker/Kubernetes services, App Services, SQL Databases, Logic App and Storage Account",
+            "Set up CI/CD pipelines on Azure DevOps and JIRA"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "KPMG",
+      "position": "Senior Full Stack Engineer",
+      "startDate": "Oct 2010",
+      "endDate": "June 2013",
+      "summary": "KPMG is a global network of professional firms providing Audit, Tax and Advisory services.",
+      "projects": [
+        {
+          "title": "",
+          "highlights": [
+            "Requirement gathering from Clients, Release and Sprint planning and SOW preparation",
+            "Information and Data Architecture based on the requirement and planned infrastructure",
+            "Developing, Programming solutions on C#, .NET, MOSS 2007 and SharePoint 2010 platform",
+            "Developing CDN and Caching mechanism to fine-tune performance",
+            "Dashboard using features like Report Center, Excel Services, Chart Web Part (SharePoint 2010 only)",
+            "Data View Web Part with multiple lists and XML sources",
+            "Developing Workflow and Event Handler using Visual Studio",
+            "Developing jQuery components – Carousel, Accordion, Tabbed Content, Image tooltip",
+            "Provide bug fixes/solutions for defects",
+            "Documentation of Technical Design, Admin Manual, and Deployment Steps"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Johnson & Johnson",
+      "position": "Software Developer and Tech Lead",
+      "startDate": "Oct 2007",
+      "endDate": "Sep 2010",
+      "summary": "Johnson & Johnson is an American multinational medical devices, pharmaceutical and consumer packaged goods manufacturer.",
+      "projects": [
+        {
+          "title": "",
+          "highlights": [
+            "Requirement gathering from Clients, Release and Sprint planning and SOW preparation",
+            "Installation, Configuration and Development of SharePoint, .NET, C#, C++ and SQL Database Applications"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "MetLife",
+      "position": "Software Developer",
+      "startDate": "June 2005",
+      "endDate": "Sep 2007",
+      "summary": "MetLife, Inc. is an American insurance company.",
+      "projects": [
+        {
+          "title": "",
+          "highlights": [
+            "Design, build, or maintain web sites, using authoring or scripting languages, content creation tools, management tools, and digital media",
+            "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions"
+          ]
+        }
+      ]
     }
   ],
   "education": [

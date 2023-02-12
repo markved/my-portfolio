@@ -6,16 +6,13 @@ import SEO from "../components/seo";
 import Link from "next/link";
 
 interface Portfolio {
-  skills: string[];
-  certifications: string[];
-  experience: string[];
+  
   projects: { title: string; description: string; link: string }[];
-  education: string[];
-  contact: { email: string; phone: string; location: string };
+ 
 }
 
 // the Index component is being used to render the data fetched from the data.json file.
-const Index = ({ skills, experience, certifications, projects, education, contact }: Portfolio) => {
+const Index = ({ projects }: Portfolio) => {
   return (
     <>
       <SEO
@@ -98,24 +95,6 @@ const Index = ({ skills, experience, certifications, projects, education, contac
             </div>
           </div>
 
-          {/* <section className="flex snap-x snap-mandatory flex-nowrap gap-5 overflow-x-auto px-5 pb-5 pt-5">
-            <div className="flex-none snap-center snap-always bg-white rounded-lg shadow-md p-4">
-              <p>I have more than 17 years' experience building rich web applications for clients all over the world.<br></br> Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?</p>
-            </div>
-            <div className="flex-none snap-center snap-always bg-white rounded-lg shadow-md p-4">
-              <p>content goes here</p>
-            </div>
-            <div className="flex-none snap-center snap-always bg-white rounded-lg shadow-md p-4">
-              <p>content goes here</p>
-            </div>
-            <div className="flex-none snap-center snap-always bg-white rounded-lg shadow-md p-4">
-              <p>content goes here</p>
-            </div>
-            <div className="flex-none snap-center snap-always bg-white rounded-lg shadow-md p-4">
-              <p>content goes here</p>
-            </div>           
-          </section> */}
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {projects.map((project) => (
               <ProjectCard key={project.title} project={project} />
@@ -130,12 +109,7 @@ const Index = ({ skills, experience, certifications, projects, education, contac
 export const getStaticProps: GetStaticProps<Portfolio> = async () => {
   return {
     props: {
-      skills: data.skills,
-      certifications: data.certifications,
-      experience: data.experience,
-      projects: data.projects,
-      education: data.education,
-      contact: data.contact,
+      projects: data.projects
     },
   };
 };
