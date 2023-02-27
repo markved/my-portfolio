@@ -4,7 +4,7 @@ excerpt: 'Blockchain technology is a decentralized, public ledger that records a
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2022-03-16T05:35:07.322Z'
 author:
-  name: JJ Kasper
+  name: Ved Mishra
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/what-is-blockchain/cover.png'
