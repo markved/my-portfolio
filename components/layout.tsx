@@ -34,6 +34,7 @@ const Layout = ({ children, title = "My App" }: Props) => {
           </div>
           <div className="flex uppercase text-white items-center">
             <a href="#" className={`px-1 py-1 mr-1  ${router.pathname === '/' && 'underline underline-offset-8'}`} onClick={() => handleClick("/")}>Home</a>
+            <a href="#" className={`px-1 py-1 mr-1  ${router.pathname === '/resume' && 'underline underline-offset-8'}`} onClick={() => handleClick("/resume")}>Resume</a>
             <a href="#" className={`px-1 py-1 mr-1  ${router.pathname === '/project' && 'underline underline-offset-8'}`} onClick={() => handleClick("/project")}>Project</a>           
             <a href="#" className={`px-1 py-1 mr-1  ${router.pathname === '/blog' && 'underline underline-offset-8'}`} onClick={() => handleClick("/blog")}>Blog</a>
             <a href="#" className={`px-1 py-1 mr-1  ${router.pathname === '/contact' && 'underline underline-offset-8'}`} onClick={() => handleClick("/contact")}>Contact</a>
