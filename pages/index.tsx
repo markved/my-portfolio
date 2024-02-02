@@ -31,7 +31,7 @@ const Index = ({ projects }: Portfolio) => {
                     Hello, my name is Ved Mishra!
                   </h2>
                   <h3 className="text-xl mb-8 text-gray-200">
-                    17 years experienced full stack engineer with a strong background in designing, developing, and maintaining web and mobile applications.<br></br>
+                    18 years experienced full stack engineer with a strong background in designing, developing, and maintaining web and mobile applications.<br></br>
                     Proven success in delivering projects on time and within budget, with a focus on usability and user experience.<br></br>
                     Skilled in working independently and as part of a team, and able to communicate effectively with both technical and non-technical stakeholders.<br></br>
                   </h3>
@@ -48,7 +48,7 @@ const Index = ({ projects }: Portfolio) => {
           <div className="container mx-auto px-6">
             <div className="text-center">
               <h1 className="text-3xl font-medium mb-4">Skills Overview</h1>
-              <div className="mb-4">I have more than 17 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?</div>
+              <div className="mb-4">I have more than 18 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?</div>
             </div>
           </div>
 
